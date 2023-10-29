@@ -228,7 +228,7 @@ int main(int argc, char* argv[]) {
   return 0;
 }
 ```
-El resto de programas que desarrollé, por su complejidad, sí que usé funciones, pero no estructuré absolutamente todo el contenido del `int main()` en declaraciones de funciones. Mi duda surge principalmente por el ejemplo propuesto en el enunciado de la práctica:
+En el resto de programas que desarrollé, por su complejidad, sí que usé funciones, pero no estructuré absolutamente todo el contenido del `int main()` en declaraciones de funciones. Mi duda surge principalmente por el ejemplo propuesto en el enunciado de la práctica:
 ```cpp
  {
   PrintProgramPurpose();
