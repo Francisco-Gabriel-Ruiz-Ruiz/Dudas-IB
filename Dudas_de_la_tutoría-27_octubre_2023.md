@@ -221,7 +221,7 @@ int main(int argc, char* argv[]) {
   }
   char* user_binary_string = argv[1];
   int user_binary_number = std::atoi(user_binary_string);
-  checkValidInput(user_binary_number, binary_number_size);
+  checkValidInput(user_binary_number);
   int binary_number_size = getBinaryNumberSize(user_binary_number);
   int user_decimal_result{convertFromBinaryToDecimal(user_binary_number, binary_number_size)};
   std::cout << user_decimal_result << '\n';
